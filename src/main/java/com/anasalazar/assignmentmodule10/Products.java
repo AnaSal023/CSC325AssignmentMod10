@@ -5,11 +5,23 @@
 package com.anasalazar.assignmentmodule10;
 
 /**
- *
+ * Products interface with get methods
  * @author anasa
  */
 public interface Products {
+    /**
+     * get tops 
+     * @return  tops
+     */
     String getTops();
+    /**
+     * get shoes
+     * @return  shoes
+     */
     String getShoes();
+    /**
+     * get pants
+     * @return  pants
+     */
     String getPants();
 }
