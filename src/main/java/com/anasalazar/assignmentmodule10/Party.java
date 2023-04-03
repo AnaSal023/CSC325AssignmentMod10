@@ -9,6 +9,9 @@ package com.anasalazar.assignmentmodule10;
  * @author anasa
  */
 public class Party implements Products{
+    private String tops;
+    private String shoes;
+    private String pants;
 
     @Override
     public String getTops() {
