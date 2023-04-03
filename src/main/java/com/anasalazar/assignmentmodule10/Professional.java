@@ -16,17 +16,17 @@ public class Professional implements Products{
 
     @Override
     public String getTops() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Professional tops: " + tops;
     }
 
     @Override
     public String getShoes() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Professional shows: " + shoes;
     }
 
     @Override
     public String getPants() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Professional pants: " + pants;
     }
 
     public void setTops(String tops) {
