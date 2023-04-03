@@ -13,6 +13,15 @@ public class Party implements Products{
     private String shoes;
     private String pants;
 
+    public Party() {
+    }
+
+    public Party(String tops, String shoes, String pants) {
+        this.tops = tops;
+        this.shoes = shoes;
+        this.pants = pants;
+    }
+    
     @Override
     public String getTops() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
