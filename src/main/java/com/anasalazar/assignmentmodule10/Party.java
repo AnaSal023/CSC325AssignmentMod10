@@ -24,17 +24,17 @@ public class Party implements Products{
     
     @Override
     public String getTops() {
-        return "Professional tops: " + tops;
+        return "Party tops: " + tops;
     }
 
     @Override
     public String getShoes() {
-        return "Professional shows: " + shoes;
+        return "Party shows: " + shoes;
     }
 
     @Override
     public String getPants() {
-        return "Professional pants: " + pants;
+        return "Party pants: " + pants;
     }
     
     public void setTops(String tops) {

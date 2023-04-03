@@ -24,17 +24,17 @@ public class Casual implements Products{
 
     @Override
     public String getTops() {
-        return "Professional tops: " + tops;
+        return "Casual tops: " + tops;
     }
 
     @Override
     public String getShoes() {
-        return "Professional shows: " + shoes;
+        return "Casual shows: " + shoes;
     }
 
     @Override
     public String getPants() {
-        return "Professional pants: " + pants;
+        return "Casual pants: " + pants;
     }
     
     public void setTops(String tops) {
