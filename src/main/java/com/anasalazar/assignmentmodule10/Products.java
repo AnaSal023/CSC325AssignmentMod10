@@ -9,5 +9,7 @@ package com.anasalazar.assignmentmodule10;
  * @author anasa
  */
 public interface Products {
-    
+    String getTops();
+    String getShoes();
+    String getPants();
 }
