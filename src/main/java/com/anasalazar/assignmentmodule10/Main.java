@@ -15,7 +15,12 @@ public class Main {
         Casual garment2 = new Casual();
         Party garment3 = new Party();
         
-        
+        garment1.setPants("Dressy pants");
+        garment1.setShoes("Dressy shoes");
+        garment1.setTops("Dressy tops");
+        System.out.println(garment1.getPants());
+        System.out.println(garment1.getShoes());
+        System.out.println(garment1.getTops());
         
     }
     
