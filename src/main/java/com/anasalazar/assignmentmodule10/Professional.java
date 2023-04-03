@@ -14,6 +14,17 @@ public class Professional implements Products{
     private String shoes;
     private String pants;
 
+    public Professional() {
+    }
+
+    public Professional(String tops, String shoes, String pants) {
+        this.tops = tops;
+        this.shoes = shoes;
+        this.pants = pants;
+    }
+    
+    
+
     @Override
     public String getTops() {
         return "Professional tops: " + tops;
