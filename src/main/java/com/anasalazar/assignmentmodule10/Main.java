@@ -11,6 +11,12 @@ package com.anasalazar.assignmentmodule10;
 public class Main {
     public static void main(String[] args) {
         
+        Professional garment1 = new Professional();
+        Casual garment2 = new Casual();
+        Party garment3 = new Party();
+        
+        
+        
     }
     
 }
