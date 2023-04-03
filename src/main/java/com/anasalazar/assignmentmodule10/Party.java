@@ -37,4 +37,16 @@ public class Party implements Products{
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
+    public void setTops(String tops) {
+        this.tops = tops;
+    }
+
+    public void setShoes(String shoes) {
+        this.shoes = shoes;
+    }
+
+    public void setPants(String pants) {
+        this.pants = pants;
+    }
+    
 }
