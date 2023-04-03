@@ -22,6 +22,13 @@ public class Main {
         System.out.println(garment1.getShoes());
         System.out.println(garment1.getTops());
         
+        garment2.setPants("Jeans");
+        garment2.setShoes("Sneakers");
+        garment2.setTops("T-Shirt");
+        System.out.println(garment2.getPants());
+        System.out.println(garment2.getShoes());
+        System.out.println(garment2.getTops());
+        
     }
     
 }
